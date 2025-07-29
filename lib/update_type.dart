@@ -1,0 +1,1 @@
+enum UpdateType { required, optional, none, invalid }
