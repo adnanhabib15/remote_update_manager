@@ -1,6 +1,6 @@
 
 
-# firebase_remote_package
+# remote_update_manager
 
 A Flutter package to handle app updates easily using Firebase Remote Config.
 
