@@ -77,7 +77,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
             child: ListBody(
               children: <Widget>[
                 Text(
-                  "A new version of App Upgrader is available.s",
+                  "A new version of App Upgrader is availables",
                   style: TextStyle(fontSize: 18),
                 ),
               ],
