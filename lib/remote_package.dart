@@ -60,14 +60,13 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
     bool isSkippable, {
     UpdateType? updateType,
   }) async {
-  
     return showDialog<void>(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text(
-            "New version available",
+            "Update App",
             style: TextStyle(
               fontSize: 25,
               fontWeight: FontWeight.w600,
@@ -78,7 +77,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
             child: ListBody(
               children: <Widget>[
                 Text(
-                  "Please update to the latest version of the app.",
+                  "A new version of App Upgrader is available.s",
                   style: TextStyle(fontSize: 18),
                 ),
               ],
@@ -93,7 +92,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
                   },
                   child: const Text(
                     'Skip',
-                    style: TextStyle(fontSize: 15, color: Colors.grey),
+                      style: TextStyle(fontSize: 15, ),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -106,7 +105,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
                   },
                   child: const Text(
                     'Update',
-                    style: TextStyle(fontSize: 15, color: Colors.green),
+            style: TextStyle(fontSize: 15, ),
                   ),
                 ),
               ] else if (updateType == UpdateType.required) ...[
@@ -119,7 +118,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
                   },
                   child: const Text(
                     'Update Now',
-                    style: TextStyle(fontSize: 15, color: Colors.green),
+                  style: TextStyle(fontSize: 15, ),
                   ),
                 ),
               ],
@@ -133,7 +132,7 @@ class _ShowUpdateDialogState extends State<FirebaseRemoteConfiguration> {
                 },
                 child: const Text(
                   'Update Now',
-                  style: TextStyle(fontSize: 15, color: Colors.green),
+                  style: TextStyle(fontSize: 15, ),
                 ),
               ),
             ],
