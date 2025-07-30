@@ -22,6 +22,10 @@ When the user taps the "Update" button, the app automatically redirects them to 
 |----------|-----------|
 | Android  | ✅        |
 | iOS      | ✅        |
+| Web      | ✅        |
+| Windows  | ✅        |
+| macOS    | ✅        |
+| Linux    | ✅        |
 
 
 
